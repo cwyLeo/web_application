@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>web-sql</title>
+</head>
+<body>
+    <div id="top"></div>
+    <a href="#top"><div class="totop">
+    </div></a>
+    <form id="frm1" action="">
+        <nav>
+            <a id="a1" href="a.html" onclick="toa()"><span>按学号查询</span></a>
+            <a id="a2" href="b.html" onclick="tob()"><span>按关键字查询</span></a>
+            <a id="a3" href="#" style="color:#fff;background-color:skyblue;"><span>成绩区间查询</span></a>
+            <a id="a4" href="d.html" onclick="tod()"><span>插入新学生数据</span></a>
+        </nav>
+        <!-- student-ID:<input type="text" name="stu_id" id="stu_id"><br> -->
+        keywords(enter a simple comparsion):<input type="text" name="keywords" id="keywords"><br>
+    </form>
+    <button onclick="query3()">confirm</button>
+    <span id="sp"></span>
+    <SCRIPT LANGUAGE="JavaScript" src="index_sql.js">
+    </SCRIPT>
+</body>
+</html>

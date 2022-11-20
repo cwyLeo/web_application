@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 60px;
+    background-color:pink; 
+    /* height: 100%; */
+    width: 1090px;
+    /* text-align: center; */
+    /* background-repeat: repeat-x; */
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+form,table{
+    box-sizing: border-box;
+    background: #fff;
+    opacity: 0.8;
+    align-items: center;
+    margin: 100px auto 20px;
+    box-shadow: 0 0 15px 10px #fff; 
+    /* height: 500px; */
+    width: 600px;
+    padding: 0 0 0 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+input,select{
+    display: inline-block;
+    margin: 30px 20px;
+    width: 200px;
+    height: 20px;
+}
+button{
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px;
+    height: 25px;
+    color: grey;
+    transition: 0.5s;
+    background-color: #fff;
+    /* width: 30px; */
+}
+button:hover{
+    color: black;
+    background-color: skyblue;
+    border-color: skyblue;
+}
+nav{
+    border-bottom: 1px solid;
+    padding: 0 2px;
+    margin: 0 auto;
+}
+nav span{
+    /* box-sizing: content-box; */
+    display: inline-block;
+    /* position: absolute; */
+    margin: 0 -5px;
+    padding: 5px 15px;
+    transition: 0.5s;
+    /* border: 1px solid; */
+}
+nav span:hover{
+    color: #fff;
+    background-color: skyblue;
+}
+.totop{
+    display: none;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    float: left;
+    width: 0;
+    height: 0;
+    margin: 20px auto;
+    border: 40px solid transparent;
+    border-bottom-color: blue;
+}
+tr{
+    height: 80px;
+}
